@@ -1,0 +1,513 @@
+#deleteme-wrapper { /* This is only here for the calendar I built on its own page, not in the lightbox */
+margin: 0 auto;
+width: 954px;
+border: 1px solid #999;
+margin-top: 50px;
+}
+#calendar-container {
+padding: 22px;
+overflow: hidden;
+background-color: #fff;
+}
+.ie6 #calendar-container {
+padding: 15px;
+}
+.ie7 #calendar-container {
+padding: 21px;
+}
+
+#calendar-container p {
+	padding:0px;
+}
+#calendar-container h2 {
+font-size: 24px;
+border-bottom: 3px solid #d2d2d2;
+text-transform: none;
+padding-top: 0px !important;
+padding-bottom: 8px !important;
+padding-left:3px;
+}
+
+ul#arrows {
+   margin:-30px 0px 0px 0px;
+   padding:0;
+   list-style: none;
+   float: right;
+   }
+
+#arrows li {
+	padding: 0px;
+	display: inline;
+	}
+	
+li.previous a {
+	text-indent: -3000em;
+	background:url(../img/calendar/arrow-left.png) no-repeat left top;
+	width: 21px;
+	height: 21px;
+	display: block;
+	overflow: hidden;
+	float:left;
+	margin: 0px 3px 0px 0px;
+	}
+li.previous a:hover {
+	background-position: 0px -21px; 
+	}
+li.next a {
+	text-indent: -3000em;
+	background:url(../img/calendar/arrow-right.png) no-repeat left top;
+	width: 21px;
+	height: 21px;
+	display: block;
+	overflow: hidden;
+	float:left;
+	}
+li.next a:hover {
+	background-position: 0px -21px; 
+	}
+li.today a {
+	background: url("../img/calendar/calendar-todaybutton.png") no-repeat scroll left top transparent;
+	display: block;
+	float: left;
+	height: 21px;
+	overflow: hidden;
+	text-indent: -3000em;
+	width: 54px;
+	margin-right: 3px;
+}
+li.today a:hover {
+	background-position: 0px -21px; 
+	}
+
+#days-header {
+height: 35px;
+width: 909px;
+border: 1px solid #c9c9c9;
+margin: 18px 0px 0px 0px;
+-webkit-border-radius: 5px 5px 0px 0px;
+-moz-border-radius: 5px 5px 0px 0px;
+border-radius: 5px 5px 0px 0px;
+background-color: #d6d6d6;
+background-image: linear-gradient(bottom, rgb(213,213,213) 1%, rgb(234,234,234) 51%);
+background-image: -o-linear-gradient(bottom, rgb(213,213,213) 1%, rgb(234,234,234) 51%);
+background-image: -moz-linear-gradient(bottom, rgb(213,213,213) 1%, rgb(234,234,234) 51%);
+background-image: -webkit-linear-gradient(bottom, rgb(213,213,213) 1%, rgb(234,234,234) 51%);
+background-image: -ms-linear-gradient(bottom, rgb(213,213,213) 1%, rgb(234,234,234) 51%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0.01, rgb(213,213,213)),
+	color-stop(0.51, rgb(234,234,234))
+);
+}
+
+.day-heading {
+color: #1C1C1C;
+display: block;
+float: left;
+font-size: 13px;
+font-weight: bold;
+margin: 0;
+padding: 10px 0 0;
+text-align: center;
+text-transform: uppercase;
+width: 101px;
+}
+.day-heading-last {
+width: 125px;
+margin: 0px -6px 0px 0px;
+display: block;
+float: left;
+text-align: center;
+font-size: 13px;
+color: #1c1c1c;
+text-transform: uppercase;
+font-weight: bold;
+padding: 10px 0px 0px 0px;
+}
+
+.day {
+margin: 6px 6px 0px 0px;
+padding: 5px;
+height: 111px;
+width: 113px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #d8d8d8;
+float: left;
+}
+.day-last {
+margin: 6px -6px 0px 0px!important;
+padding: 5px;
+height: 111px;
+width: 113px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+border: 1px solid #d8d8d8;
+float: left;
+}
+.day-active {
+border: 1px solid #b3b3b3;
+height: 111px;
+}
+
+
+.date {
+float: right;
+font-size: 18px;
+color: #292929;
+overflow: hidden;
+margin-bottom: 4px;
+}
+.ie6 .date {
+height: 20px;
+margin: 0px!important;
+}
+
+.deselected {
+background-color: #eaeaea;
+}
+.deselected .date {
+color: #a0a0a0!important;
+}
+
+.nounderline {
+text-decoration: none!important;
+}
+.more {
+font-size: 11px;
+font-weight: bold;
+text-align: center;
+margin: 22px 0px 0px 0px;
+padding: 0 !important;
+}
+.ie6 .more {
+margin: 0px!important;
+}
+
+.event-signedup {
+clear: both;
+display: block;
+background-color: #78a560;
+color: #fff;
+text-shadow:0px -1px 0px #638D4C;
+font-weight: bold;
+font-size: 12px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+text-align: center;
+padding: 4px;
+height: 14px;
+border: 1px solid #78a560;
+background-image: linear-gradient(bottom, rgb(113,167,84) 0%, rgb(133,187,104) 70%);
+background-image: -o-linear-gradient(bottom, rgb(113,167,84) 0%, rgb(133,187,104) 70%);
+background-image: -moz-linear-gradient(bottom, rgb(113,167,84) 0%, rgb(133,187,104) 70%);
+background-image: -webkit-linear-gradient(bottom, rgb(113,167,84) 0%, rgb(133,187,104) 70%);
+background-image: -ms-linear-gradient(bottom, rgb(113,167,84) 0%, rgb(133,187,104) 70%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(113,167,84)),
+	color-stop(0.7, rgb(133,187,104))
+);
+}
+.event-signedup:hover {
+border: 1px solid #476e32;
+cursor: pointer;
+background-image: none!important;
+background-color: #85bb68;
+}
+.event-signedup-text {
+text-align: center;
+margin: 3px 0px 0px 0px;
+color: #5f9841;
+font-weight: bold;
+font-size: 10px;
+}
+.ie6 .event-signedup {
+width: 103px;
+}
+.ie7 .event-signedup {
+width: 103px;
+margin-top: 4px;
+}
+
+.ie6 .event-notsignedup {
+width: 103px;
+}
+.ie7 .event-notsignedup {
+width: 103px;
+margin-top: 4px;
+}
+.ie6 .event-notsignedup {
+width: 103px;
+}
+.ie7 .event-notsignedup {
+width: 103px;
+margin-top: 4px;
+}
+}
+.ie6 .event-signedup {
+width: 103px;
+}
+.ie7 .event-signedup {
+width: 103px;
+margin-top: 4px;
+}
+
+.ie6 .calendar-on-page-small .event-signedup  {
+width: 74px;
+}
+.ie7 .calendar-on-page-small .event-signedup  {
+width: 74px;
+margin-top: 4px;
+}
+.ie6 .calendar-on-page-small .event-notsignedup {
+width: 74px;
+}
+.ie7 .calendar-on-page-small .event-notsignedup {
+width: 74px;
+margin-top: 4px;
+}
+.event-notsignedup {
+clear: both;
+display: block;
+background-color: #9e4031;
+color: #fff;
+text-shadow:0px -1px 0px #5e1e13;
+font-weight: bold;
+font-size: 12px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+text-align: center;
+padding: 4px;
+height: 14px;
+border: 1px solid #a30c0c;
+background-image: linear-gradient(bottom, rgb(155,63,49) 0%, rgb(189,66,44) 70%);
+background-image: -o-linear-gradient(bottom, rgb(155,63,49) 0%, rgb(189,66,44) 70%);
+background-image: -moz-linear-gradient(bottom, rgb(155,63,49) 0%, rgb(189,66,44) 70%);
+background-image: -webkit-linear-gradient(bottom, rgb(155,63,49) 0%, rgb(189,66,44) 70%);
+background-image: -ms-linear-gradient(bottom, rgb(155,63,49) 0%, rgb(189,66,44) 70%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(155,63,49)),
+	color-stop(0.7, rgb(189,66,44))
+);
+}
+.event-notsignedup:hover {
+border: 1px solid #450202;
+cursor: pointer;
+background-image: none!important;
+background-color: #bd412c;
+}
+
+.event-notsignedup-text {
+text-align: center;
+margin: 3px 0px 0px 0px;
+color: #9b4031;
+font-weight: bold;
+font-size: 10px;
+}
+
+#cal-footer {
+clear: both;
+padding: 20px 0px 0px 0px;
+overflow: hidden;
+/*background-color: fuchsia;*/
+}
+.ie6 #cal-footer {
+clear: both;
+padding: 15px 0px 20px 0px;
+overflow: hidden;
+/*background-color: fuchsia;*/
+}
+
+.cal-footer-left {
+float: left;
+}
+.cal-footer-right {
+float: right;
+}
+.keyimage {
+margin: -3px 0px 0px 0px;
+}
+
+/*--qTip Styles--*/
+h3.qtip-heading {
+font-size: 17px;
+margin: 8px 0px 0px 0px;
+}
+.qtip-signedup-text {
+text-align: left;
+margin: 3px 0px 11px 0px;
+color: #5f9841;
+font-weight: bold;
+font-size: 12px;
+}
+.qtip-notsignedup-text {
+text-align: left;
+margin: 3px 0px 11px 0px;
+color: #9b4031;
+font-weight: bold;
+font-size: 10px;
+}
+.qtip-remove {
+color: #292929;
+float: left;
+font-weight: bold;
+font-size: 12px;
+height: 25px;
+margin: 8px 0px 0px 0px!important;
+padding: 0px 0px 0px 0px!important;
+}
+.qtip-desc {
+margin: 4px 0px 8px 0px!important;
+}
+.qtip-name-text {
+text-align: left;
+margin: 3px 0px 11px 0px;
+color: #000000;
+font-weight: bold;
+font-size: 10px;
+text-transform: uppercase;
+}
+
+.ie6 .qtip-time,
+.ie7 .qtip-time,
+.ie8 .qtip-time { /* This moves the time stamp into the correct position */
+float: left!important;
+margin-top: -13px;
+}
+.calendar-on-page-small h2,
+.calendar-on-page h2 {
+font-family: "proxima-nova", Helvetica neue, Arial, sans-serif;
+font-size: 20px;
+font-weight: 600;
+margin: 0px;
+/* padding-top: 8px; */
+color: #000;
+text-transform: uppercase;
+}
+/* small calendar page */
+/*
+.calendar-on-page-small .day-heading{
+	width: 92px;
+}
+*/
+.calendar-on-page-small .day-last,
+.calendar-on-page-small .day{
+	width: 84px;
+}
+.calendar-on-page-small #content{
+ 	margin-bottom: 35px;
+ 	padding-bottom: 85px;
+}
+
+.calendar-on-page-small #content{
+	width: 100%;
+	margin-top: 15px;
+}
+.calendar-on-page-small #days-header{
+	width: 707px;
+}
+/* end small calendar page */
+
+.calendar-on-page #content{
+	margin-bottom: 35px;
+	padding-bottom: 85px;
+}
+.calendar-on-page #content{
+	width: 100%;
+	margin-top: 15px;
+}
+/*
+.cal-tip1, .cal-tip3 {
+	height: 37px;
+}
+*/
+/* Today class */
+.today-calendar{
+	border:1px solid #C4CFD3;
+	background:#D6DFDF;
+}
+/*
+.ie6 .cal-tip1{
+	margin-top: 10px !important;
+}
+.ie6 .cal-tip3{
+	margin-top: 10px !important;
+}
+.ie6 .cal-tip1, .cal-tip3 {
+	height: 30px;
+}
+.ie7 .cal-tip1, .cal-tip3{
+	margin-top: 25px;
+}
+*/
+.ie6 .more{
+	margin-top: 15px !important;
+}
+.ie6 .calendar-on-page-small #calendar-container{
+	width: 709px;
+}
+.ie7 .calendar-on-page-small #content,
+.ie7 .calendar-on-page #content{
+ 	margin-bottom: 35px;
+ 	padding-bottom: 120px;
+}
+
+#sidebar-right {
+	/*
+float: right;
+margin: 0 0 0 19px;
+width: 160px;*/
+float: right;
+	margin: 0 0 0 19px;
+	width: 187px;
+	//background-color: #FFFFFF;
+	//border: 1px solid #CBCBCB;
+	//border-radius: 5px 5px 5px 5px;
+	//padding: 11px;
+}
+
+#calendar-container {
+background-color: #FFFFFF;
+overflow: hidden;
+padding: 22px;
+border: 1px solid #CBCBCB;
+-webkit-border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+border-radius: 5px 5px 5px 5px; 
+}
+
+.event-signedup-text,
+.event-notsignedup-text {
+margin-top: 6px !important;
+}
+
+.more-not-signed-up {
+font-size: 11px;
+font-weight: bold;
+margin: 10px 0 0;
+padding: 0 !important;
+text-align: center;
+}
+
+.more-signed-up {
+font-size: 11px;
+font-weight: bold;
+margin: 22px 0 0;
+padding: 0 !important;
+text-align: center;
+}

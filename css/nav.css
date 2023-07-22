@@ -1,0 +1,999 @@
+/* =============================================================================
+   Logged Out Navigation
+   ========================================================================== */
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.gv {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#header-right {
+    position: relative;
+}
+
+#header-right ul {
+    float: right;
+}
+
+#nav-loggedout li {
+    display: inline;
+}
+
+li.home a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/home.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.home a:hover {
+    background-position: 0px -129px;
+}
+
+li.homeON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/home.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+.publicTopNav a {
+    display: block;
+    overflow: hidden;
+    float: left;
+    font-size:16px;
+    color:white;
+    font-family:proxima_nova,helvetica;
+    text-decoration:none;
+    margin-top:78px;
+    font-weight:bold;
+    margin-left: 30px;
+}
+
+.publicTopNav a:hover {
+    background-position: 0px -129px;
+    color:#FACF54;
+}
+
+.publicTopNavON a {
+    display: block;
+    overflow: hidden;
+    float: left;
+    font-size:16px;
+    color:#D38551;
+    font-family:proxima_nova,helvetica;
+    text-decoration:none;
+    margin-top:78px;
+    font-weight:bold;
+    margin-left: 30px;
+}
+
+li.about-home a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/tryit-new2016.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.about-home a:hover {
+    background-position: 0px -129px;
+}
+
+li.about-homeON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/tryit-new2016.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.aboutus a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/aboutus.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.aboutus a:hover {
+    background-position: 0px -129px;
+}
+
+li.aboutusON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/aboutus.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.blog a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/blog.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.blog a:hover {
+    background-position: 0px -129px;
+}
+
+li.blogON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/blog.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.groups a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/communities.png) no-repeat left top;
+    width: 102px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.groups a:hover {
+    background-position: 0px -129px;
+}
+
+li.groupsON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/communities.png) no-repeat left top;
+    width: 102px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.communities a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/groups.png) no-repeat left top;
+    width: 148px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.communities a:hover {
+    background-position: 0px -129px;
+}
+
+li.communitiesON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/groups.png) no-repeat left top;
+    width: 148px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.activities a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/activities.png) no-repeat left top;
+    width: 104px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.activities a:hover {
+    background-position: 0px -129px;
+}
+
+li.activitiesON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/activities.png) no-repeat left top;
+    width: 104px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+/* =============================================================================
+   Logged In Navigation
+   ========================================================================== */
+
+#nav-loggedin li {
+    display: inline;
+}
+
+li.dashboardlink a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/dashboard.png) no-repeat left top;
+    width: 118px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.dashboardlink a:hover {
+    background-position: 0px -129px;
+}
+
+li.dashboardlinkON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/dashboard.png) no-repeat left top;
+    width: 118px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.grouphome a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/grouphome.png) no-repeat left top;
+    width: 133px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.grouphome a:hover {
+    background-position: 0px -129px;
+}
+
+li.grouphomeON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/grouphome.png) no-repeat left top;
+    width: 133px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.mycalendar a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/mycalendar.png) no-repeat left top;
+    width: 131px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.mycalendar a:hover {
+    background-position: 0px -129px;
+}
+
+li.mycalendarON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/mycalendar.png) no-repeat left top;
+    width: 131px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.createactivity a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/createactivity.png) no-repeat left top;
+    width: 170px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.createactivity a:hover {
+    background-position: 0px -129px;
+}
+
+li.createactivityON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/createactivity.png) no-repeat left top;
+    width: 170px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+li.profile a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+li.profile a:hover {
+    background-position: 0px -129px;
+}
+
+li.profileON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedin/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+/* =============================================================================
+   New Nav Var 1
+   ========================================================================== */
+
+#nav-var1 li {
+    display: inline;
+}
+
+#nav-var1 li.dashboard a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/dashboard.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: 0px;
+}
+
+#nav-var1 li.dashboard a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var1 li.dashboardON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/dashboard.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var1 li.creategroup a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/creategroup.png) no-repeat left top;
+    width: 137px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var1 li.creategroup a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var1 li.creategroupON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/creategroup.png) no-repeat left top;
+    width: 137px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var1 li.mycalendar a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var1 li.mycalendar a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var1 li.mycalendarON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var1 li.profile a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var1 li.profile a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var1 li.profileON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var1/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+/* =============================================================================
+   New Nav Var 2
+   ========================================================================== */
+
+#nav-var2 li {
+    display: inline;
+}
+
+#nav-var2 li.dashboard a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/dashboard.png) no-repeat left top;
+    width: 118px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -1px;
+}
+
+#nav-var2 li.dashboard a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var2 li.dashboardON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/dashboard.png) no-repeat left top;
+    width: 118px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var2 li.grouphome a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/grouphome.png) no-repeat left top;
+    width: 133px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var2 li.grouphome a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var2 li.grouphomeON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/grouphome.png) no-repeat left top;
+    width: 133px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var2 li.createactivity a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/createactivity.png) no-repeat left top;
+    width: 169px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var2 li.createactivity a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var2 li.createactivityON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/createactivity.png) no-repeat left top;
+    width: 169px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var2 li.mycalendar a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var2 li.mycalendar a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var2 li.mycalendarON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var2 li.profile a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/profile.png) no-repeat left top;
+    width: 85px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-var2 li.profile a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var2 li.profileON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var2/profile.png) no-repeat left top;
+    width: 85px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+/* =============================================================================
+   New Nav Var 3
+   ========================================================================== */
+
+#nav-var3 li {
+    display: inline;
+}
+
+#nav-var3 li.dashboard a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/dashboard.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -5px;
+}
+
+#nav-var3 li.dashboard a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var3 li.dashboardON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/dashboard.png) no-repeat left top;
+    width: 120px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var3 li.creategroup a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/creategroup.png) no-repeat left top;
+    width: 137px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -1px;
+}
+
+#nav-var3 li.creategroup a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var3 li.creategroupON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/creategroup.png) no-repeat left top;
+    width: 137px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var3 li.communityhome a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/communityhome.png) no-repeat left top;
+    width: 172px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -1px;
+}
+
+#nav-var3 li.communityhome a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var3 li.communityhomeON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/communityhome.png) no-repeat left top;
+    width: 172px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var3 li.mycalendar a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -1px;
+}
+
+#nav-var3 li.mycalendar a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var3 li.mycalendarON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/mycalendar.png) no-repeat left top;
+    width: 132px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-var3 li.profile a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    margin-left: -1px;
+}
+
+#nav-var3 li.profile a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-var3 li.profileON a {
+    text-indent: -3000em;
+    background: url(/public/img/new-nav/var3/profile.png) no-repeat left top;
+    width: 84px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li {
+    display: inline;
+}
+
+#nav-loggedout-new li.home a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/home.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.home a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.homeON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/home.png) no-repeat left top;
+    width: 93px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li.aboutus a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/aboutus.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.aboutus a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.aboutusON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/aboutus.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li.blog a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/blog.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.blog a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.blogON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/blog.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+/* Edited Apr 2014 to include new "reset your password" */
+
+#nav-loggedout-new li.forgroups a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/tryitfree-new2016.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.forgroups a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.forgroupsON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/tryitfree-new2016.png) no-repeat left top;
+    width: 119px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li.forclubs a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/forclubs-new2014.png) no-repeat left top;
+    width: 110px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.forclubs a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.forclubsON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/forclubs-new2014.png) no-repeat left top;
+    width: 110px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li.signup a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/forhoas-new2016.png) no-repeat left top;
+    width: 102px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.signup a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.signupON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/forhoas-new2016.png) no-repeat left top;
+    width: 102px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#nav-loggedout-new li.resetpassword a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/resetpassword-new2014.png) no-repeat left top;
+    width: 195px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+}
+
+#nav-loggedout-new li.resetpassword a:hover {
+    background-position: 0px -129px;
+}
+
+#nav-loggedout-new li.resetpasswordON a {
+    text-indent: -3000em;
+    background: url(/public/img/nav-loggedout/updated/resetpassword-new2014.png) no-repeat left top;
+    width: 195px;
+    height: 129px;
+    display: block;
+    overflow: hidden;
+    float: left;
+    background-position: 0px -258px;
+}
+
+#header-right-updated { /* Updated by Will for new logged out nav */
+    float: right;
+    width: 650px;
+    /*background-color: blue;*/
+    height: 129px;
+    /*margin-right: 16px;*/
+}
+
+/* =============================================================================
+   Mobile Responsive by Nikolai
+   ========================================================================== */
+@media only screen and (max-width: 768px) {
+    #nav-loggedout-new {
+        position: absolute;
+        top: 128px;
+        left: 0;
+        z-index: 1000;
+        display: none;
+    }
+
+    #nav-loggedout-new li a {
+        width: 100% !important;
+        height: auto !important;
+        text-indent: unset !important;
+        background: #303030 !important;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px 0;
+        border-bottom: 3px solid #b97345;
+    }
+
+    #menu-icon {
+        display: block;
+        margin-top: 55px;
+        width: 40px;
+        height: 40px;
+        background: url(/public/images/menu-icon.png) no-repeat center;
+    }
+
+    /*---------------- private header ---------------*/
+    #header-right {
+        position: absolute;
+        top: 129px;
+        height: auto;
+        z-index: 1000;
+        display: none;
+    }
+
+    #nav-var1 li {
+        display: inline-flex;
+        width: 100%;
+    }
+
+    #nav-var1 li a {
+        width: 100% !important;
+        height: auto !important;
+        text-indent: unset !important;
+        background: #303030 !important;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px 0;
+        border-bottom: 3px solid #b97345;
+    }
+}

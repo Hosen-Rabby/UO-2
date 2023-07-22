@@ -1,0 +1,18 @@
+/*=================================*/
+/* Nivo Slider Demo
+/* November 2010
+/* By: Gilbert Pellegrom
+/* http://dev7studios.com
+/*=================================*/
+
+
+/*===================*/
+/*=== Main Styles ===*/
+/*===================*/
+
+
+
+.theme-default #slider {
+    width:960px; /* Make sure your images are the same size */
+    height: 367px; /* Make sure your images are the same size */
+}

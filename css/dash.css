@@ -1,0 +1,262 @@
+.dashboard-content-container ul.dashboard-tabs li.centre_tab
+{ 
+	width:135px;
+}
+.dashboard-content-container ul.dashboard-tabs li.normal_tab
+{
+	width:200px;
+}
+.dashboard-content-container ul.dashboard-tabs li.small_tab
+{ 
+	width:151px;
+}
+.dashboard-content-container ul.dashboard-tabs li:first-child,.dashboard-content-container ul.dashboard-tabs
+{
+	border-top-left-radius:5px;
+}
+.dashboard-content-container ul.dashboard-tabs
+{
+	border-top-right-radius:5px;
+}
+.dashboard-content-container ul.dashboard-tabs li.normal_tab:last-child
+{
+	width:200px!important;
+}
+
+.floatL
+{
+	float:left;
+}
+ .dashboard #tab0.tab_content li ul li
+{
+	width:100%;
+	margin-left:0px;
+	margin-right:0px;
+}
+#tab0 .para-heading
+{
+	width:auto;
+}
+
+
+div.floatL.para-heading
+{
+	width:200px;
+}
+div.floatL.para-text
+{
+	width:520px;
+}
+.tab_content ul
+{
+	margin-top:2px;
+}
+.dashboard #tab0.tab_content .tab0_subinfo 
+{
+	margin-top:20px;
+}
+.dashboard #tab0.tab_content .tab0_subinfo  p.para-heading:first-child
+{
+	width:87px;
+	display:block;
+	float:left!important;
+	text-align:right;
+	padding-right:14px!important;
+}
+.dashboard #tab0.tab_content .tab0_subinfo  p.para-heading
+{
+	padding-right:10px!important;
+}
+.dashboard #tab0.tab_content .tab0_subinfo  p:last-child
+{
+	padding-right:0px!important;
+}
+.dashboard #tab0.tab_content .tab0_subinfo  p
+{
+	display:inline;
+	float:none;
+	padding-right:38px!important;
+	text-align:center;
+}
+.dashboard #tab0.tab_content li.cta-list
+{
+	margin-left:100px!important;
+}
+
+
+
+
+.inline
+{
+	display:inline;
+}
+ .notification
+{
+	background:#fff3a1;
+	border:1px solid #dfc890;
+	border-radius:5px;
+	-webkit-box-shadow: 0 0 0 3px #efefef;
+	-moz-box-shadow: 0 0 0 3px #efefef;
+	box-shadow: 0 0 0 3px #efefef;
+	width:600px;
+	margin:0 auto;
+	margin-top:25px;
+	padding:25px;
+	padding-top:21px;
+	padding-left:70px;
+}
+ .notification 
+{
+	
+	background-image:url(../img/alert_icon.png);
+	background-position: 15px center;
+	background-repeat: no-repeat;
+}
+ .notification h5
+{	
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: bold;
+	color: #090603;
+	line-height:25px;
+}
+ .notification p
+{
+	padding:0px!important;
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	color: #292929;
+}
+ .notification-noalert
+{
+	background:#fff3a1;
+	border:1px solid #dfc890;
+	border-radius:5px;
+	-webkit-box-shadow: 0 0 0 3px #efefef;
+	-moz-box-shadow: 0 0 0 3px #efefef;
+	box-shadow: 0 0 0 3px #efefef;
+	width:664px;
+	margin:0 auto;
+	margin-top:25px;
+	padding:25px;
+	padding-top:21px;
+	padding-left:20px;
+}
+ .notification-noalert h5
+{	
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: bold;
+	color: #090603;
+	line-height:25px;
+}
+ .notification-noalert p
+{
+	padding:0px!important;
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	color: #292929;
+}
+
+ .notification-db-noalert
+{
+	background:#d4efff;
+	border:1px solid #dfc890;
+	border-radius:5px;
+	-webkit-box-shadow: 0 0 0 3px #efefef;
+	-moz-box-shadow: 0 0 0 3px #efefef;
+	box-shadow: 0 0 0 3px #efefef;
+	width:664px;
+	margin:0 auto;
+	margin-top:25px;
+	padding:25px;
+	padding-top:21px;
+	padding-left:20px;
+}
+ .notification-db-noalert h5
+{	
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	font-weight: bold;
+	color: #090603;
+	line-height:25px;
+}
+ .notification-db-noalert p
+{
+	padding:0px!important;
+	font-family: "Helvetica Neue";
+	font-size: 15px;
+	color: #292929;
+}
+
+
+.dashboard   a.notSeeing_link:hover
+{
+	background-color:#e62b38;
+	background-image: -webkit-linear-gradient(bottom, #e62b38 31%, #c5222d 78%),url(../img/notSeeing_button.png) ;
+	background-image: -moz-linear-gradient(bottom, #e62b38 31%, #c5222d 78%),url(../img/notSeeing_button.png);
+	background-image: -o-linear-gradient(bottom, #e62b38 31%, #c5222d 78%),url(../img/notSeeing_button.png);
+	background-image: linear-gradient(to top, #e62b38 31%, #c5222d 78%),url(../img/notSeeing_button.png);
+	
+}
+
+.dashboard   a.notSeeing_link
+{
+	position:relative;
+	font-family: "proxima-nova", Helvetica neue, Arial, sans-serif;
+	font-size: 17px;
+	color: #fff;
+	text-shadow: 0 -1px rgba(80,61,2,.75);
+	text-decoration:none;
+	display:block;
+	margin:0 auto;
+	width:458px;
+	text-align:center;
+	padding:10px 0px;
+	margin-top:25px;
+	margin-bottom:10px;
+	border-radius:30px;
+	transition:ease all 1s;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.42), inset 0 1px rgba(251,199,183,.8);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.42), inset 0 1px rgba(251,199,183,.8);
+	box-shadow: 0 1px 4px rgba(0,0,0,.42), inset 0 1px rgba(251,199,183,.8);
+	border: solid 1px #b16c56;
+	background-color:#c5222d;
+	background-image: -webkit-linear-gradient(bottom, #c5222d 31%, #e62b38 78%),url(../img/notSeeing_button.png) ;
+	background-image: -moz-linear-gradient(bottom, #c5222d 31%, #e62b38 78%),url(../img/notSeeing_button.png);
+	background-image: -o-linear-gradient(bottom, #c5222d 31%, #e62b38 78%),url(../img/notSeeing_button.png);
+	background-image: linear-gradient(to top, #c5222d 31%, #e62b38 78%),url(../img/notSeeing_button.png);
+	
+}
+
+/******************************************************
+ Mobile Responsive by Nikolai
+ *****************************************************/
+@media only screen and (max-width: 768px) {
+	.dashboard a.notSeeing_link {
+		width: 80%;
+	}
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+ul.ul-gv
+{
+    list-style: disc !important;
+    margin: initial !important;
+    padding: 0 0 0 40px !important;
+}
+
+ol.ol-gv
+{
+    list-style: decimal !important;
+    margin: initial !important;
+    padding: 0 0 0 40px !important;
+}
+
+li.li-gv
+{
+    display: list-item !important;
+}
