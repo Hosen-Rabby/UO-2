@@ -695,6 +695,7 @@ p.soft {
   background-repeat: no-repeat;
   color: #fff;
   background-size: cover;
+  background-position: center;
 }
 .testimonials h1,
 .country h1 {
@@ -764,6 +765,13 @@ p.soft {
   margin: 0;
   line-height: 15px;
   color: #222;
+}
+
+.testimonial_item h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 400;
 }
 /*  */
 .make_content h2 {
@@ -838,31 +846,58 @@ p.soft {
 
 /* partners */
 
-.table_btm,
-.table_top {
-  width: 980px;
-  margin: 0 auto;
+.partners {
+  background-color: #e3e3e3;
+  padding: 40px;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #cacaca;
+}
+.partners_btn {
+  display: block;
   text-align: center;
+  width: 140px;
+  margin: 0 auto 20px auto;
+  color: #fff !important;
 }
 
-.partner_btm,
-.partner_top {
+.partners_btn a {
+  color: #fff;
+}
+.partner_banner p {
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 0;
+}
+
+.partners_icon .top,
+.partners_icon .bottom {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.partners_icon .top img {
+  width: 200px;
+}
+
+.partners_icon .top .ghin {
+  width: 170px;
+}
+
+.partners_icon .top .cdga {
+  width: 100px;
+}
+.partners_icon .bottom div {
   display: flex;
   justify-content: space-between;
-  justify-content: center;
   align-items: center;
 }
 
-.partner_btm img {
-  width: 210px;
-  margin: 0 20px;
-}
-.partner_top img {
-  width: 220px;
-  margin: 0 20px;
-}
-.golf_logo {
-  width: 180px;
+.partners_icon .bottom div img {
+  width: 190px;
+  margin: 0 30px;
 }
 
 /* blog page */
@@ -986,6 +1021,48 @@ p.soft {
   font-weight: 600;
 }
 
+/* contact form */
+.contact_form {
+  padding: 2px;
+  background-color: #fff;
+  margin: 20px auto 40px auto;
+  border-radius: 10px;
+  border: 1px solid #cbcbcb;
+}
+
+.wid h5 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 40px;
+}
+
+.privacy_content .privacy_text,
+.terms_bg {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  margin: 30px auto 0 auto;
+}
+
+.wid .page-headline {
+  margin-top: 30px;
+}
+
+.privacy_content {
+  background-color: #f1f1f1;
+}
+.privacy_content .privacy_text {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.get_pass {
+  background-color: #fff;
+  padding: 1px;
+  border-radius: 5px;
+  margin: 40px auto;
+  border: 1px solid #cacaca;
+}
 /* responsive */
 @media (max-width: 1040px) {
   #header-right-updated {
@@ -1247,6 +1324,20 @@ p.soft {
   .panel-wrapper {
     margin-top: -30px;
   }
+
+  .get_pass {
+    margin: 40px auto 40px auto;
+  }
+
+  .partners_icon .bottom div img {
+    width: 160px;
+    margin: 0 20px;
+  }
+
+  .partners_btn {
+    width: 130px;
+    margin: 0 auto 20px auto;
+  }
 }
 
 @media (min-width: 309px) and (max-width: 768px) {
@@ -1491,6 +1582,42 @@ p.soft {
   .testimonials h1 {
     padding: 130px 0 20px 0;
     font-size: 20px;
+  }
+  .contact_form tr {
+    display: flex;
+    /* font-size: ; */
+  }
+  .gen_p {
+    margin-top: 10px !important;
+  }
+
+  .get_pass {
+    margin: 0px auto 40px auto;
+  }
+
+  .partner_banner p {
+    font-size: 18px;
+  }
+  .partners_icon .top img {
+    margin: 0 15px;
+  }
+  .partners_icon .top .ghin {
+    width: 100px;
+  }
+  .partners_icon .top .golfnet {
+    width: 130px;
+  }
+  .partners_icon .bottom {
+    display: block;
+  }
+
+  .partners_icon .bottom div img {
+    margin: 30px 10px;
+  }
+
+  .partners_btn {
+    width: 100px;
+    margin: 0 auto 20px auto;
   }
 }
 

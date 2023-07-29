@@ -39,9 +39,9 @@
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/layout2023.css" />
     <link rel="stylesheet" href="/css/nav2023.css" />
+    <link rel="stylesheet" href="/css/media.css" />
     <link rel="stylesheet" href="/css/calendar.css" />
     <link rel="stylesheet" href="/css/basic-jquery-slider.css" />
-    <link rel="stylesheet" href="/css/media.css" />
 
     <!-- end CSS-->
     <!--STYLE SELECT BOXES-->
@@ -111,310 +111,267 @@
     <!-- End Meta Pixel Code -->
   </head>
   <body class="homepage-loggedout">
-    <section id="container">
-      <!-- header start -->
-      <section>
-        <header>
-          <div class="wrapper">
-            <div id="header-left">
-              <a
-                href="https://www.groupvalet.com/"
-                title="GroupValet Logo"
-                class="loogo"
-              >
-                <img src="public/img/group-valet-logo.png" alt="Logo" />
-              </a>
-              <p class="soft">Software that delivers engagement</p>
-            </div>
-            <div id="header-right-updated">
-              <div id="nav-loggedout-new">
-                <div class="publicTopNav">
-                  <a href="/signup-for-free/" title="Try For Free" accesskey="1"
-                    >Try For Free</a
-                  >
-                </div>
-                <div class="publicTopNav">
-                  <a href="/about-us/" title="About Us" accesskey="2">About</a>
-                </div>
-                <div class="publicTopNav">
-                  <a
-                    href="/country-club-membership-software/"
-                    title="For Clubs"
-                    accesskey="3"
-                    >For Clubs</a
-                  >
-                </div>
-                <div class="publicTopNav">
-                  <a href="/for-hoas/" title="For HOAs" accesskey="4"
-                    >For HOAs</a
-                  >
-                </div>
-                <div class="publicTopNav">
-                  <a href="/blog/" title="Blog" accesskey="5">Blog</a>
-                </div>
-                <div class="publicTopNav">
-                  <a
-                    href="/get-your-password/"
-                    title="Get Your Password"
-                    accesskey="6"
-                    >Get Your Password</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="header_link">
-              <ul class="nav_menu">
-                <li class="nav_link">
-                  <a href="/signup-for-free/" title="Try For Free" accesskey="1"
-                    >Try For Free</a
-                  >
-                </li>
-                <li class="nav_link">
-                  <a href="/about-us/" title="About Us" accesskey="2">About</a>
-                </li>
-                <li class="nav_link">
-                  <a
-                    href="/country-club-membership-software/"
-                    title="For Clubs"
-                    accesskey="3"
-                    >For Clubs</a
-                  >
-                </li>
-                <li class="nav_link">
-                  <a href="/for-hoas/" title="For HOAs" accesskey="4"
-                    >For HOAs</a
-                  >
-                </li>
-                <li class="nav_link">
-                  <a href="/blog/" title="Blog" accesskey="5">Blog</a>
-                </li>
-                <li class="nav_link">
-                  <a
-                    href="/get-your-password/"
-                    title="Get Your Password"
-                    accesskey="6"
-                    >Get Your Password</a
-                  >
-                </li>
-              </ul>
-
-              <div class="hamburg">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-              </div>
-            </div>
-          </div>
-
-          <div class="panel-wrapper">
-            <div id="panel">
-              <form
-                class="gp-login-form-container test"
-                name="gp-login-form-container"
-                method="post"
-                action="/open/public/signin"
-              >
-                <input type="text" id="username" name="email" maxlength="150" />
-                <span class="email-placeholder">Email</span>
-                <input
-                  type="text"
-                  id="email2"
-                  name="email2"
-                  autocomplete="off"
-                  maxlength="150"
-                />
-                <div class="placeholding-input">
-                  <input
-                    type="password"
-                    class="home-password"
-                    id="password"
-                    name="password"
-                    maxlength="20"
-                  />
-                </div>
-
-                <div class="gp-forms-options">
-                  <table class="login-table">
-                    <tr>
-                      <td>
-                        <input
-                          type="checkbox"
-                          name="remember"
-                          value="1"
-                          class="check"
-                        />
-                        <span class="checkbox-text">Auto Login</span>
-                      </td>
-                      <td>
-                        <a href="#" class="info-login ir login-tip"
-                          >More Info</a
-                        >
-                      </td>
-                    </tr>
-                    <tr>
-                      <td colspan="2">
-                        <a
-                          href="/open/public/forgotpassword"
-                          class="forgot-password"
-                          >Forgot your password?</a
-                        >
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <input
-                  type="submit"
-                  value="submit"
-                  class="submit ir"
-                  title="Login"
-                  alt="Login"
-                />
-              </form>
-            </div>
-          </div>
-        </header>
-
-        <script type="text/javascript">
-          $(function () {
-            $("#menu-icon").click(function () {
-              if ($("#nav-loggedout-new").css("display") == "none")
-                $("#nav-loggedout-new").show();
-              else $("#nav-loggedout-new").hide();
-            });
-          });
-        </script>
-        <section id="banner" class="clearfix">
-          <div class="btn-wrapper">
-            <a href="#" class="btn-slide ir">login</a>
-          </div>
-        </section>
-      </section>
-      <!-- header end -->
-      <section id="banner" class="clearfix">
+    <!-- header start -->
+    <section>
+      <header>
         <div class="wrapper">
-          <div style="margin-top: 40px; margin-bottom: 20px" class="wid">
-            <!-- <center> -->
-            <a href="/signup-for-free/"
-              ><img
-                src="/img/public/partners/partners.jpg"
-                alt="Our partners help us give you a better experience"
-                title="Our partners help us give you a better experience"
-            /></a>
-            <!-- </center> -->
+          <div id="header-left">
+            <a
+              href="https://www.groupvalet.com/"
+              title="GroupValet Logo"
+              class="loogo"
+            >
+              <img src="public/img/group-valet-logo.png" alt="Logo" />
+            </a>
+            <p class="soft">Software that delivers engagement</p>
           </div>
-          <div class="home-testimonials-fixed" style="margin-top: 0px"></div>
+          <div id="header-right-updated">
+            <div id="nav-loggedout-new">
+              <div class="publicTopNav">
+                <a href="/signup-for-free/" title="Try For Free" accesskey="1"
+                  >Try For Free</a
+                >
+              </div>
+              <div class="publicTopNav">
+                <a href="/about-us/" title="About Us" accesskey="2">About</a>
+              </div>
+              <div class="publicTopNav">
+                <a
+                  href="/country-club-membership-software/"
+                  title="For Clubs"
+                  accesskey="3"
+                  >For Clubs</a
+                >
+              </div>
+              <div class="publicTopNav">
+                <a href="/for-hoas/" title="For HOAs" accesskey="4">For HOAs</a>
+              </div>
+              <div class="publicTopNav">
+                <a href="/blog/" title="Blog" accesskey="5">Blog</a>
+              </div>
+              <div class="publicTopNav">
+                <a
+                  href="/get-your-password/"
+                  title="Get Your Password"
+                  accesskey="6"
+                  >Get Your Password</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="header_link">
+            <ul class="nav_menu">
+              <li class="nav_link">
+                <a href="/signup-for-free/" title="Try For Free" accesskey="1"
+                  >Try For Free</a
+                >
+              </li>
+              <li class="nav_link">
+                <a href="/about-us/" title="About Us" accesskey="2">About</a>
+              </li>
+              <li class="nav_link">
+                <a
+                  href="/country-club-membership-software/"
+                  title="For Clubs"
+                  accesskey="3"
+                  >For Clubs</a
+                >
+              </li>
+              <li class="nav_link">
+                <a href="/for-hoas/" title="For HOAs" accesskey="4">For HOAs</a>
+              </li>
+              <li class="nav_link">
+                <a href="/blog/" title="Blog" accesskey="5">Blog</a>
+              </li>
+              <li class="nav_link">
+                <a
+                  href="/get-your-password/"
+                  title="Get Your Password"
+                  accesskey="6"
+                  >Get Your Password</a
+                >
+              </li>
+            </ul>
 
-          <div class="inner-container">
-            <h3 style="text-align: center">Our Partners & Integrations</h3>
-            <table style="align: center; text-align: center" class="table_top">
-              <tr class="partner_top">
-                <td style="vertical-align: middle">
-                  <a href="https://ghin.com/" target="_blank" rel="noopener"
-                    ><img
-                      src="/img/public/partners/ghin.png"
-                      alt="GHIN"
-                      title="GHIN"
-                  /></a>
-                </td>
-                <td style="vertical-align: middle">
-                  <a
-                    href="https://app.golfnet.com/home"
-                    target="_blank"
-                    rel="noopener"
-                    ><img
-                      src="/img/public/partners/golfnet.png"
-                      alt="GolfNet"
-                      title="GolfNet"
-                  /></a>
-                </td>
-                <td style="vertical-align: middle">
-                  <a href="https://www.cdga.org/" target="_blank" rel="noopener"
-                    ><img
-                      src="/img/public/partners/cdga.png"
-                      alt="Chicago Distrcit Golf Association"
-                      title="Chicago Distrcit Golf Association"
-                      class="golf_logo"
-                  /></a>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="3" height="30">&nbsp;</td>
-              </tr>
-            </table>
-            <table style="align: center; text-align: center" class="table_btm">
-              <tr class="partner_btm">
-                <td style="vertical-align: middle">
-                  <a
-                    href="https://www.membersfirst.com/"
-                    target="_blank"
-                    rel="noopener"
-                    ><img
-                      src="/img/public/partners/mf.png"
-                      alt="MembersFirst"
-                      title="MembersFirst"
-                  /></a>
-                </td>
-                <td style="vertical-align: middle">
-                  <a
-                    href="https://www.foretees.com/"
-                    target="_blank"
-                    rel="noopener"
-                    ><img
-                      src="/img/public/partners/foretees.png"
-                      alt="ForeTees"
-                      title="ForeTees"
-                  /></a>
-                </td>
-                <td style="vertical-align: middle">
-                  <a
-                    href="https://www.golfgenius.com/"
-                    target="_blank"
-                    rel="noopener"
-                    ><img
-                      src="/img/public/partners/golfgenius.png"
-                      alt="Golf Genius"
-                      title="Golf Genius"
-                  /></a>
-                </td>
-                <td style="vertical-align: middle">
-                  <a
-                    href="https://pacesettertechnology.com/"
-                    target="_blank"
-                    rel="noopener"
-                    ><img
-                      src="/img/public/partners/pacesetter_logo.png"
-                      alt="Pacesetter Technology"
-                      title="Pacesetter Technology"
-                  /></a>
-                </td>
-              </tr>
-              <tr>
-                <td colspan="4" height="20">&nbsp;</td>
-              </tr>
-            </table>
+            <div class="hamburg">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
           </div>
-          <p>&nbsp;</p>
+        </div>
+
+        <div class="panel-wrapper">
+          <div id="panel">
+            <form
+              class="gp-login-form-container test"
+              name="gp-login-form-container"
+              method="post"
+              action="/open/public/signin"
+            >
+              <input type="text" id="username" name="email" maxlength="150" />
+              <span class="email-placeholder">Email</span>
+              <input
+                type="text"
+                id="email2"
+                name="email2"
+                autocomplete="off"
+                maxlength="150"
+              />
+              <div class="placeholding-input">
+                <input
+                  type="password"
+                  class="home-password"
+                  id="password"
+                  name="password"
+                  maxlength="20"
+                />
+              </div>
+
+              <div class="gp-forms-options">
+                <table class="login-table">
+                  <tr>
+                    <td>
+                      <input
+                        type="checkbox"
+                        name="remember"
+                        value="1"
+                        class="check"
+                      />
+                      <span class="checkbox-text">Auto Login</span>
+                    </td>
+                    <td>
+                      <a href="#" class="info-login ir login-tip">More Info</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td colspan="2">
+                      <a
+                        href="/open/public/forgotpassword"
+                        class="forgot-password"
+                        >Forgot your password?</a
+                      >
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <input
+                type="submit"
+                value="submit"
+                class="submit ir"
+                title="Login"
+                alt="Login"
+              />
+            </form>
+          </div>
+        </div>
+      </header>
+
+      <script type="text/javascript">
+        $(function () {
+          $("#menu-icon").click(function () {
+            if ($("#nav-loggedout-new").css("display") == "none")
+              $("#nav-loggedout-new").show();
+            else $("#nav-loggedout-new").hide();
+          });
+        });
+      </script>
+      <section id="banner" class="clearfix">
+        <div class="btn-wrapper">
+          <a href="#" class="btn-slide ir">login</a>
         </div>
       </section>
-      <section id="main" role="main">
-        <!-- main content-->
-        <section class="home-main-content">
-          <br /><br /><a
-            class="try-btn"
-            style="float: right; margin-right: 400px"
-            href="/signup-for-free/"
-            ><img
-              src="/img/public/button-tryitfree.png"
-              border="0"
-              alt="Click to create your free account"
-              title="Click to create your free account" /></a
-          ><br />
-        </section>
-        <!-- This extra section tag below pins the footer to the bottom along with some CSS / In effect, anything below this point is the footer -->
-      </section>
     </section>
+    <!-- header end -->
 
+    <!-- parterns start -->
+    <div class="partners">
+      <div class="partner_banner wid">
+        <a href="">
+          <img
+            src="img/public/partners/partners.jpg"
+            alt="Our partners help us give you a better experience"
+            title="Our partners help us give you a better experience"
+          />
+        </a>
+        <p>Our Partners & Integrations</p>
+      </div>
+      <div class="partners_icon wid">
+        <div class="top">
+          <a href="https://ghin.com/" target="_blank" rel="noopener"
+            ><img
+              src="/img/public/partners/ghin.png"
+              alt="GHIN"
+              title="GHIN"
+              class="ghin"
+          /></a>
+          <a href="https://app.golfnet.com/home" target="_blank" rel="noopener"
+            ><img
+              src="/img/public/partners/golfnet.png"
+              alt="GolfNet"
+              title="GolfNet"
+              class="golfnet"
+          /></a>
+          <a href="https://www.cdga.org/" target="_blank" rel="noopener"
+            ><img
+              src="/img/public/partners/cdga.png"
+              alt="Chicago Distrcit Golf Association"
+              title="Chicago Distrcit Golf Association"
+              class="cdga"
+          /></a>
+        </div>
+        <div class="bottom">
+          <div>
+            <a
+              href="https://www.membersfirst.com/"
+              target="_blank"
+              rel="noopener"
+              ><img
+                src="/img/public/partners/mf.png"
+                alt="MembersFirst"
+                title="MembersFirst"
+            /></a>
 
+            <a href="https://www.foretees.com/" target="_blank" rel="noopener"
+              ><img
+                src="/img/public/partners/foretees.png"
+                alt="ForeTees"
+                title="ForeTees"
+            /></a>
+          </div>
+
+          <div>
+            <a href="https://www.golfgenius.com/" target="_blank" rel="noopener"
+              ><img
+                src="/img/public/partners/golfgenius.png"
+                alt="Golf Genius"
+                title="Golf Genius"
+            /></a>
+            <a
+              href="https://pacesettertechnology.com/"
+              target="_blank"
+              rel="noopener"
+              ><img
+                src="/img/public/partners/pacesetter_logo.png"
+                alt="Pacesetter Technology"
+                title="Pacesetter Technology"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="wid">
+      <a
+        href="/signup-for-free.html/"
+        class="create partners_btn"
+        alt="Click to create your free account"
+        title="Click to create your free account"
+        >Try It For Free</a
+      >
+    </div>
+
+    <!-- parterns end -->
     <!-- footer start -->
     <div class="footer">
       <div class="footer_content">
@@ -497,7 +454,7 @@
 
         <!-- </div> -->
         <div class="footer_right">
-          <div style=" font-family: proxima-nova, helvetica">
+          <div style="font-family: proxima-nova, helvetica">
             <div class="footer-header">About</div>
             <div class="footer-list">
               <a href="/about-us/">About Us</a><br />
@@ -533,6 +490,7 @@
       </div>
     </div>
     <!-- footer end -->
+
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(["_setAccount", "UA-16338219-3"]);
@@ -626,7 +584,6 @@
       defer
       src="//js.hs-scripts.com/39666213.js"
     ></script>
-
     <script src="js/main.js"></script>
     <!-- End of HubSpot Embed Code -->
   </body>

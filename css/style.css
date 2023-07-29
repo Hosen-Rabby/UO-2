@@ -1465,13 +1465,14 @@ html
 }
 .dashboard_topbar.update-31-10-14 .dash_top_btn.book.active
 {
-	background:url('/public/img/dashboard/update_31_10_14_book_btn.png') no-repeat;
+	/* background:url('./public/img/dashboard/update_31_10_14_book_btn.png') no-repeat; */
+	background: url('/img/dashboard/update_31_10_14_book_btn.png');
 }
 
 .dashboard_topbar.update-31-10-14 .dash_top_btn.create
 {
 	
-	background:url('/public/img/dashboard/update_31_10_14_create_btn_hover.png') no-repeat;
+	background:url('/img/dashboard/update_31_10_14_create_btn_hover.png') no-repeat;
 	display: inline-block;
 	width:175px;
 	height:37px;
